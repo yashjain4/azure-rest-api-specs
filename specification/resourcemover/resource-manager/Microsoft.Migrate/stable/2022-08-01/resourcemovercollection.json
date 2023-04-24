@@ -1411,6 +1411,10 @@
           "description": "Gets or sets the target region.",
           "type": "string"
         },
+        "moveType": {
+          "description": "Gets or sets the move type.",
+          "type": "string"
+        },
         "provisioningState": {
           "$ref": "#/definitions/ProvisioningState"
         },
