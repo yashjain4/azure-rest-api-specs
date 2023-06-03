@@ -13,10 +13,10 @@ emit:
   - "@azure-tools/typespec-autorest"
 options:
   "@azure-tools/typespec-autorest":
-    azure-resource-provider-folder: "./data-plane"
+    azure-resource-provider-folder: "data-plane"
     emitter-output-dir: "{project-root}/.."
-    examples-directory: "./examples"
-    output-file: widgets.json
+    examples-directory: "examples"
+    output-file: "{azure-resource-provider-folder}/{service-name}/{version-status}/{version}/widgets.json"
   "@azure-tools/typespec-python":
     emitter-output-dir: "{python-sdk-folder}/sdk/{service-directory-name}/{package-name}"
     package-mode: "dataplane"
