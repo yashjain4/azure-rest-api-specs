@@ -5,7 +5,7 @@
     "description": "A first party Azure service orchestrating the move of Azure resources from one Azure region to another or between zones within a region.",
     "version": "2022-08-01"
   },
-  "host": "management.azure.com",
+  "host": "eastus2euap.management.azure.com",
   "schemes": [
     "https"
   ],
